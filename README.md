@@ -1,0 +1,1 @@
+Landing page project. Final assignment for the HTML/CSS section in The Odin Project Foundations course.
