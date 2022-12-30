@@ -168,25 +168,27 @@ a {
     gap: 12px;
 }
 
+.link:hover {
+    color: #a8dadc;
+}
+
 .logo-home img {
     max-width: 40px;
     height: auto;
+    margin-right: 12px;
 }
 
 .header {
     padding: 50px 120px;
     justify-content: space-between;
+    align-items: center;
 }
 
-.intro-img {
-    max-height: 271px;
-    width: auto;
-}
-
-.intro-img img {
-    width: 100%;
-    height: 100%;
+.header img {
+    width: 50%;
+    height: 271px;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .intro-text {
@@ -194,6 +196,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
 }
 
 .intro-text .title {
@@ -205,5 +208,21 @@ a {
 .intro-text p {
     font-weight: 300;
     line-height: 1.2em;
-    padding: 0.5em 0;
+}
+
+.button-signup {
+    display: inline-block;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7em 1.8em;
+    text-align: center;
+    align-self: flex-start;
+    width: 65px;
+    transition: background-color 200ms ease-in-out, cursor 200ms ease-in-out;
+}
+
+.button-signup:hover {
+    background-color: #4c8cf3;
+    cursor: pointer;
 }
