@@ -145,19 +145,20 @@ body {
     background-color: #1f2937;
     font-size: 18px;
     font-weight: 700;
-    color: #f9faf8;
+    color: #e5e7eb;
     font-family: 'Roboto', sans-serif;
     display: flex;
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 .navbar {
     justify-content: space-between;
     align-items: center;
-    padding: 12px 100px;
+    padding: 12px 120px;
 }
 
 .right-links {
@@ -170,4 +171,39 @@ a {
 .logo-home img {
     max-width: 40px;
     height: auto;
+}
+
+.header {
+    padding: 50px 120px;
+    justify-content: space-between;
+}
+
+.intro-img {
+    max-height: 271px;
+    width: auto;
+}
+
+.intro-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-text {
+    margin-right: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-text .title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro-text p {
+    font-weight: 300;
+    line-height: 1.2em;
+    padding: 0.5em 0;
 }
