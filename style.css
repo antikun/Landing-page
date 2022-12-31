@@ -241,7 +241,7 @@ main .subtitle {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
-    padding: 1.5em 120px;
+    padding: 1.5em 20%;
 }
 
 .news-events {
@@ -400,6 +400,10 @@ main a {
 
         .box>p {
             align-self: center;
+        }
+
+        .box:hover {
+            transform: none;
         }
 
     }
