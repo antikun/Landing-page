@@ -299,14 +299,14 @@ main a {
     align-items: center;
     background-color: #3882F6;
     border-radius: 10px;
-    margin: 100px 120px;
-    height: 150px;
-    width: auto;
-    padding: 60px 140px;
+    margin: 5.5em auto;
+    height: auto;
+    max-width: 1198px;
+    padding: 3.4em 7.8em;
     color: #e5e7eb;
     font-size: 18px;
     line-height: 1.2em;
-    gap: 50px;
+    gap: 2.8em;
 }
 
 .prompt-header {
@@ -325,9 +325,11 @@ main a {
     border: 3px solid #e5e7eb;
     border-radius: 10px;
     padding: 0.7em 2em;
-    text-align: center;
-    flex-basis: 12em;
     transition: background-color 200ms ease-in-out;
+    min-width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 1410px) {
@@ -353,13 +355,8 @@ main a {
         flex-direction: column;
     }
 
-    .prompt-text {
-        text-align: center;
-    }
-
     @media (max-width: 1190px) {
         .prompt-container {
-            gap: 20px;
             font-size: 14px;
         }
 
@@ -371,13 +368,10 @@ main a {
             font-size: 18px;
         }
 
-        .prompt-button {
-            font-size: 18px;
-        }
     }
 
 
-    @media (max-width: 900px) {
+    @media (max-width: 914px) {
         .header img {
             display: none;
         }
@@ -399,5 +393,6 @@ main a {
         .box>p {
             align-self: center;
         }
+
     }
 }
