@@ -158,9 +158,10 @@ a {
 .navbar {
     justify-content: space-between;
     align-items: center;
-    padding: 12px 120px;
+    padding: 12px 10%;
     position: sticky;
     top: 0;
+    min-width: 376px;
 }
 
 .right-links {
@@ -181,9 +182,10 @@ a {
 }
 
 .header {
-    padding: 50px 120px;
+    padding: 50px 10%;
     justify-content: space-between;
     align-items: center;
+    min-width: 376px;
 }
 
 .header img {
@@ -247,6 +249,7 @@ main .subtitle {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    min-width: 376px;
     gap: 15px;
 }
 
@@ -257,6 +260,11 @@ main .subtitle {
     gap: 12px;
     width: 200px;
     height: auto;
+    transition: transform 200ms ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.2);
 }
 
 .box>a>img {
