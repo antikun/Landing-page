@@ -222,7 +222,8 @@ a {
     transition: background-color 200ms ease-in-out, cursor 200ms ease-in-out;
 }
 
-.button-signup:hover {
+.button-signup:hover,
+.prompt-button:hover {
     background-color: #4c8cf3;
     cursor: pointer;
 }
@@ -240,7 +241,7 @@ main .subtitle {
 }
 
 .news-events {
-    padding: 50px 120px 100px 120px;
+    padding: 50px 20% 100px 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -260,7 +261,7 @@ main .subtitle {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 5px solid #3882F6;
+    border: 5px solid #1f2937;
     border-radius: 10%;
 }
 
@@ -275,7 +276,7 @@ main a {
     font-style: italic;
     font-weight: 300;
     line-height: 1.2em;
-    padding: 100px 120px 100px 160px;
+    padding: 100px 20% 100px 20%;
 }
 
 .quote-author {
@@ -288,4 +289,41 @@ main a {
 .footer {
     justify-content: center;
     padding: 30px 0;
+}
+
+.prompt-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px 120px;
+    height: 150px;
+    width: auto;
+    padding: 60px 140px;
+    color: #e5e7eb;
+    font-size: 18px;
+    line-height: 1.2em;
+    gap: 50px;
+}
+
+.prompt-header {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.prompt-button a {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.prompt-button {
+    border: 3px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 12px 36px;
+    text-align: center;
+    flex-basis: 12em;
+    transition: background-color 200ms ease-in-out;
 }
