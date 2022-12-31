@@ -8,7 +8,7 @@ Anyway, hope you enjoy the page I created.
 
 Below I list links to the images I used for the page layout.
 
-Logo image: official page of the Center for Korean Studies, Sofia University: <a href="https://koreanstudies.bg/">
+Logo image: <a href="https://koreanstudies.bg/">Official page of the Center for Korean Studies, Sofia University</a>.
 
 Header image: <a href="https://www.freepik.com/free-photo/dae-jang-geum-park-korean-historical-drama-south-korea_11600398.htm#query=tawatchai07%20korea&position=34&from_view=search&track=sph">Image by tawatchai07</a> on Freepik
 
