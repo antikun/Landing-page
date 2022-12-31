@@ -159,6 +159,8 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 12px 120px;
+    position: sticky;
+    top: 0;
 }
 
 .right-links {
@@ -322,8 +324,80 @@ main a {
 .prompt-button {
     border: 3px solid #e5e7eb;
     border-radius: 10px;
-    padding: 12px 36px;
+    padding: 0.7em 2em;
     text-align: center;
     flex-basis: 12em;
     transition: background-color 200ms ease-in-out;
+}
+
+@media (max-width: 1410px) {
+    .news-events {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box {
+        flex-basis: 33%;
+    }
+
+    .quote-text {
+        font-size: 24px;
+    }
+
+    .quote-author {
+        font-size: 14px;
+    }
+
+    .prompt-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prompt-text {
+        text-align: center;
+    }
+
+    @media (max-width: 1190px) {
+        .prompt-container {
+            gap: 20px;
+            font-size: 14px;
+        }
+
+        .prompt-button a {
+            font-size: 18px;
+        }
+
+        .prompt-header {
+            font-size: 18px;
+        }
+
+        .prompt-button {
+            font-size: 18px;
+        }
+    }
+
+
+    @media (max-width: 900px) {
+        .header img {
+            display: none;
+        }
+
+        .navbar {
+            padding: 12px 5rem;
+        }
+
+        .header {
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+
+        .box {
+            flex-basis: 100%;
+            flex-direction: row;
+        }
+
+        .box>p {
+            align-self: center;
+        }
+    }
 }
